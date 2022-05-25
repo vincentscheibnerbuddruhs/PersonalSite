@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #EAF6F6;
+  text-decoration:underline;
+}
+
+hr {
+  border-style: none;
+  border-bottom: dotted 5px #ababab;
+  height: 2px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.top-container {
+  padding: 100px;
+  background-color: #BEE;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.profile-pic {
+  margin: 35px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row:first-child {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.Image-Skill {
+  width: 35%;
+}
+
+.left {
+  float: left;
+  margin-right: 30px;
+}
+
+.right {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+margin: 40px auto 60px;
+}
+
+.contact-me > p {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+
+  padding: 15px 25px;
+  background: rgb(17,153,158);
+  background: linear-gradient(360deg, rgba(17,153,158,1) 0%, rgba(102,191,191,1) 100%);
+  border-radius: 10px;
+  margin: 35px auto;
+}
+
+.bottom-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 65px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-left: 50px;
+  margin-bottom: 35px;
+}
+
+.footer-link:first-child {
+  margin-left: 0px;
+}
+
+.bottom-container > p {
+  margin-top: 50px;
+  color: #BEE;
+}
